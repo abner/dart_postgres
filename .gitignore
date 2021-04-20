@@ -1,0 +1,4 @@
+bin/*.aot
+bin/*.exe
+.dart_tool
+.packages
