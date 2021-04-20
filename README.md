@@ -2,16 +2,22 @@
 
 Abrar o terminal na pasta do projeto e execute o comando abaixo:
 
-> `source postgres/rundocker`
+>```bash
+>source postgres/rundocker
+>```
 
 # Executar o programa
 
 Na mesma sessão de terminal que foi executado o comando para rodar o docker, execute:
 
 
-> `dart bin/main.dart`
+>```bash
+>dart bin/main.dart
+>```
 
 
 # Compilar para binário:
 
-> `dart compile exe bin/main.dart`
+> ```bash
+> dart compile exe bin/main.dart
+> ```
