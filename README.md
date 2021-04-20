@@ -1,14 +1,16 @@
-# Carregar o servidor Postgresql no Docker
+# Dart Postgres
 
-Abrar o terminal na pasta do projeto e execute o comando abaixo:
+## Start the Postgres Database using docker
+
+In a terminal session at the project root director, execute:
 
 >```bash
 >source postgres/rundocker
 >```
 
-# Executar o programa
+## Running Dart Program
 
-Na mesma sessão de terminal que foi executado o comando para rodar o docker, execute:
+At the same terminal session, execute:
 
 
 >```bash
@@ -16,7 +18,7 @@ Na mesma sessão de terminal que foi executado o comando para rodar o docker, ex
 >```
 
 
-# Compilar para binário:
+# Compile executable:
 
 > ```bash
 > dart compile exe bin/main.dart
